@@ -136,7 +136,6 @@ X_plot = xc.T
 Y_plot = yc.T
 
 T_plot, X_plot, Y_plot
-import matplotlib.pyplot as plt
 
 plt.figure(figsize=(8, 6))
 cp = plt.contourf(X_plot, Y_plot, T_plot, levels=50, cmap='plasma')
